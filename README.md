@@ -1,5 +1,7 @@
 # Dynamic CSS Changes
-
+```
+Aplicativo para Testar configurações CSS utilizando o DOM.
+```
 ## Project setup
 ```
 npm install
