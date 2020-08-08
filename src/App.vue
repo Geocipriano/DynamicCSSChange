@@ -1,7 +1,7 @@
 <template>
   <div id="app" :style="{backgroundColor: pageColor}">
     <div class="titulo">
-      <h1>Teste de Border Radius</h1>
+      <h1>Alteração CSS 2WDB</h1>
     </div>
     <div class="inputText">
         <div>
