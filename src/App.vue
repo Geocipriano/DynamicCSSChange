@@ -41,8 +41,8 @@ export default {
       borderColor:'',
       text : '',
       textColor: '',
-      color : 'blue',
-      backgroundColor: 'red',
+      color : '',
+      backgroundColor: '',
     };
   }
 };
