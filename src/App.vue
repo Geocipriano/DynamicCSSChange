@@ -15,7 +15,7 @@
         <input type="text" v-model="textColor">
       </div>
       <div>
-        <p>Cor da Bloco </p>
+        <p>Cor do Bloco </p>
         <input type="text" v-model="backgroundColor">
       </div>
       <div>
