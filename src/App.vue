@@ -1,28 +1,49 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="titulo">
+      <h1>Teste de Border Radius</h1>
+    </div>
+    <div class="inputTop">
+      <input type="text" v-model="color">
+      <input type="text" v-model="color">
+    </div>
+    <div class="bolder">
+      <div :style="{color: color}">Banana</div>
+    </div>
+    <div class="inputBottom">
+      <input type="text" v-model="color">
+      <input type="text" v-model="color">
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name: "App",
+  data() {
+    return {
+      color : 'blue'
+    };
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style >
+.titulo {
+  display: flex;
+  justify-content: center;
 }
+.inputTop {
+  display: flex;
+  justify-content: space-around;
+}
+.bolder {
+  display: flex;
+  justify-content: center;
+}
+.inputBottom {
+  display: flex;
+  justify-content: space-around;
+}
+
 </style>
